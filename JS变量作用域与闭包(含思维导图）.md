@@ -12,7 +12,7 @@
   - [3、表现](#3表现)
   - [4、使用场景](#4使用场景)
   - [5、注意事项](#5注意事项)
-  - [5、思维导图](#5思维导图)
+  - [6、思维导图](#6思维导图)
 ## 一、变量的作用域
 
 ### 1、全局作用域
@@ -241,7 +241,7 @@ arr[3](); //3
  - <font size=3>避免造成内存泄露
   <font size=3>&emsp;&emsp;内存泄漏：程序中动态分配的内存由于某种原因未被释放或无法释放
 
-### 5、思维导图                     
+### 6、思维导图                     
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210606133959296.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zODY0NDM5Nw==,size_16,color_FFFFFF,t_70#pic_center)
                      	  
 
