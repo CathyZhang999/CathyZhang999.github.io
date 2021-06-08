@@ -5,13 +5,14 @@
   - [absolute元素](#absolute元素)
   - [Flex 布局](#flex-布局)
 - [思维导图](#思维导图)
+
 ## absolute与relative
  1. <font size=4>relative 
 <font size=3>&emsp;&emsp;相对定位，基于自身定位
  2. <font size=4>absolute
-<font size=3>&emsp;&emsp;绝对定位，基于最近的定位元素定位
-&emsp;&emsp;&emsp;  - 定位元素1：absolute relative fixed
-&emsp;&emsp;&emsp; - 定位元素2：body
+<font size=3>&emsp;&emsp;绝对定位，基于最近的定位元素定位<p>
+&emsp;- 定位元素1：absolute relative fixed <p>
+&emsp;- 定位元素2：body
 
 ## 居中对齐方法
 
@@ -25,7 +26,7 @@
 
 ```javascript
  .span1{
- 			text-align: center;
+ 	    text-align: center;
             line-height: 200px;
             height: 200px;
         } 
@@ -46,7 +47,7 @@
 
 ```javascript
 .box1{
-			width: 300px;
+	    width: 300px;
             height: 100px;
             position: absolute;
             left: 50%;
@@ -62,7 +63,7 @@
 	- 垂直：top:50%  transform -50%
 ```javascript
 .box2{
-			position: absolute;
+	    position: absolute;
             left: 50%;
             top: 50%;
             transform: translate(-50%, -50%)      
@@ -75,7 +76,7 @@
 	- margin:auto
 ```javascript
 .box3{
-			position: absolute;
+	    position: absolute;
             top: 0;
             left: 0;
             bottom: 0;
